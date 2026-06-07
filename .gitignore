@@ -1,0 +1,38 @@
+# ── .NET / MSBuild ────────────────────────────────────────────────────────────
+**/bin/
+**/obj/
+*.user
+*.suo
+.vs/
+
+# NuGet
+*.nupkg
+packages/
+
+# ── Inno Setup ────────────────────────────────────────────────────────────────
+installer/output/
+installer/Output/
+
+# Prereq installers — 100MB+ limit, download separately from Microsoft
+installer/prereqs/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Security ──────────────────────────────────────────────────────────────────
+*.pfx
+*.p12
+.env
+
+# ── Claude Code ───────────────────────────────────────────────────────────────
+.claude/
+CLAUDE.md

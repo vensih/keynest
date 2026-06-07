@@ -1,0 +1,15 @@
+<Window
+    x:Class="Keynest.Windows.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Keynest">
+  <Grid>
+    <!-- Custom title bar drag area -->
+    <Grid x:Name="AppTitleBar" Height="32" VerticalAlignment="Top" Canvas.ZIndex="1">
+      <TextBlock Text="Keynest" VerticalAlignment="Center" Margin="16,0,0,0"
+                 Style="{StaticResource CaptionTextBlockStyle}"
+                 Foreground="{ThemeResource TextFillColorPrimaryBrush}"/>
+    </Grid>
+    <Frame x:Name="MainFrame" Margin="0,32,0,0"/>
+  </Grid>
+</Window>

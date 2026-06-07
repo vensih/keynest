@@ -1,0 +1,9 @@
+# Normalize all text files to LF in the repo and on checkout
+* text=auto eol=lf
+
+# Binary files
+*.png binary
+*.ico binary
+*.exe binary
+*.dll binary
+*.pri binary
